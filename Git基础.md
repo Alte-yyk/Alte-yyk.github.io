@@ -68,10 +68,6 @@ man git-<vebr>
 
 命令：git add <filename> (跟踪后，该文件便是暂存文件了)
 
-### 提交更新
-
-命令：git commit
-
 ### 文件忽略
 
 创建一个名为.gitignore的文件
@@ -83,4 +79,38 @@ man git-<vebr>
 - 匹配模式可以以（`/`）开头防止递归。
 - 匹配模式可以以（`/`）结尾指定目录。
 - 要忽略指定模式以外的文件或目录，可以在模式前加上叹号（`!`）取反。
+
+### 查看修改的部分
+
+git diff
+
+### 提交更新
+
+命令：git commit
+
+### 移除与移动
+
+git rm <文件>
+
+git mv README.md README	//把文件名字从README.md改成README
+
+## 远程仓库的使用
+
+git remote -v	//查看你已经配置的远程仓库
+
+git remote add origin https://github.com/username/warehose 	//通过http,username为github的用户名，warehose为仓库名，origin这个字符串则代表整个URL
+
+git remote add origin git@github:username/warehose 		//通过SSH来添加，在配置完SSH密钥后，可以免密登陆。
+
+git fetch <remote>	//获取远程仓库数据
+
+git push <remote>	//推送本地数据到远程仓库
+
+git remote show origin 	//查看远程仓库，origin为本地名
+
+git remote rename pb paul	//修改远程仓库名字，这里是把pb改成paul
+
+git remote remove paul		//移除远程仓库
+
+
 
