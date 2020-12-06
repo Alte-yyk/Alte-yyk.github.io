@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Ubuntu关于SSH的安装与使用"
+date:   2020-12-05
+author: “Alte-yyk”
+---
+
+
+
 # Ubuntu关于SSH的安装与使用
 
 ## 一、在Ubuntu上启用SSH

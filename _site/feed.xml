@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T21:08:45+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T21:57:30+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alte-yyk’s blog</title><subtitle>个人根据jekyll的模板而写的基础博客，尚有些许稚嫩...</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -131,4 +131,26 @@ author: “Alte-yyk”&lt;/p&gt;
 
 &lt;p&gt;git remote rename pb paul	//修改远程仓库名字，这里是把pb改成paul&lt;/p&gt;
 
-&lt;p&gt;git remote remove paul		//移除远程仓库&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Git基础” date: 2020-12-05 author: “Alte-yyk”</summary></entry></feed>
+&lt;p&gt;git remote remove paul		//移除远程仓库&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Git基础” date: 2020-12-05 author: “Alte-yyk”</summary></entry><entry><title type="html">Ubuntu关于SSH的安装与使用</title><link href="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html" rel="alternate" type="text/html" title="Ubuntu关于SSH的安装与使用" /><published>2020-12-05T00:00:00+08:00</published><updated>2020-12-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html">&lt;h1 id=&quot;ubuntu关于ssh的安装与使用&quot;&gt;Ubuntu关于SSH的安装与使用&lt;/h1&gt;
+
+&lt;h2 id=&quot;一在ubuntu上启用ssh&quot;&gt;一、在Ubuntu上启用SSH&lt;/h2&gt;
+
+&lt;p&gt;sudo apt update  	//检查ubuntu的更新&lt;/p&gt;
+
+&lt;p&gt;sudo apt install openssh-server	//安装openssh-server&lt;/p&gt;
+
+&lt;p&gt;sudo systemctl status ssh	//验证SSH是否在运行&lt;/p&gt;
+
+&lt;p&gt;sudo ufw allow ssh	//打开SSH端口&lt;/p&gt;
+
+&lt;h2 id=&quot;二连接到ssh服务器&quot;&gt;二、连接到SSH服务器&lt;/h2&gt;
+
+&lt;p&gt;ssh username@ip_address	//username是你的用户名，ip_address是你安装ssh的IP地址。&lt;/p&gt;
+
+&lt;p&gt;ip a 	//来查看自己系统的ip地址&lt;/p&gt;
+
+&lt;h2 id=&quot;三在ubuntu上禁用ssh&quot;&gt;三、在Ubuntu上禁用SSH&lt;/h2&gt;
+
+&lt;p&gt;sudo systemctl disable 	–now ssh	//停止&lt;/p&gt;
+
+&lt;p&gt;sudo systemctl enable      –now ssh	//重新启用&lt;/p&gt;</content><author><name>“Alte-yyk”</name></author><summary type="html">Ubuntu关于SSH的安装与使用</summary></entry></feed>

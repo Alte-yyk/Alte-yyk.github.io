@@ -3,19 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>About | Alte-yyk’s blog</title>
+<title>Ubuntu关于SSH的安装与使用 | Alte-yyk’s blog</title>
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Ubuntu关于SSH的安装与使用" />
+<meta name="author" content="“Alte-yyk”" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="个人根据jekyll的模板而写的基础博客，尚有些许稚嫩…" />
-<meta property="og:description" content="个人根据jekyll的模板而写的基础博客，尚有些许稚嫩…" />
-<link rel="canonical" href="http://localhost:4000/about/" />
-<meta property="og:url" content="http://localhost:4000/about/" />
+<meta name="description" content="Ubuntu关于SSH的安装与使用" />
+<meta property="og:description" content="Ubuntu关于SSH的安装与使用" />
+<link rel="canonical" href="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html" />
+<meta property="og:url" content="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html" />
 <meta property="og:site_name" content="Alte-yyk’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-05T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
+<meta property="twitter:title" content="Ubuntu关于SSH的安装与使用" />
 <script type="application/ld+json">
-{"@type":"WebSite","headline":"About","url":"http://localhost:4000/about/","description":"个人根据jekyll的模板而写的基础博客，尚有些许稚嫩…","name":"Alte-yyk’s blog","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Ubuntu关于SSH的安装与使用","dateModified":"2020-12-05T00:00:00+08:00","datePublished":"2020-12-05T00:00:00+08:00","url":"http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html"},"author":{"@type":"Person","name":"“Alte-yyk”"},"description":"Ubuntu关于SSH的安装与使用","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Alte-yyk's blog" /></head>
 <body><header class="site-header" role="banner">
@@ -35,26 +38,42 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Ubuntu关于SSH的安装与使用</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-12-05T00:00:00+08:00" itemprop="datePublished">Dec 5, 2020
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">“Alte-yyk”</span></span></p>
   </header>
 
-  <div class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="ubuntu关于ssh的安装与使用">Ubuntu关于SSH的安装与使用</h1>
 
-<p>You can find the source code for Minima at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/minima">minima</a></p>
+<h2 id="一在ubuntu上启用ssh">一、在Ubuntu上启用SSH</h2>
 
-<p>You can find the source code for Jekyll at GitHub:
-<a href="https://github.com/jekyll">jekyll</a> /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+<p>sudo apt update  	//检查ubuntu的更新</p>
+
+<p>sudo apt install openssh-server	//安装openssh-server</p>
+
+<p>sudo systemctl status ssh	//验证SSH是否在运行</p>
+
+<p>sudo ufw allow ssh	//打开SSH端口</p>
+
+<h2 id="二连接到ssh服务器">二、连接到SSH服务器</h2>
+
+<p>ssh username@ip_address	//username是你的用户名，ip_address是你安装ssh的IP地址。</p>
+
+<p>ip a 	//来查看自己系统的ip地址</p>
+
+<h2 id="三在ubuntu上禁用ssh">三、在Ubuntu上禁用SSH</h2>
+
+<p>sudo systemctl disable 	–now ssh	//停止</p>
+
+<p>sudo systemctl enable      –now ssh	//重新启用</p>
 
 
-  </div>
-
+  </div><a class="u-url" href="/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html" hidden></a>
 </article>
 
       </div>
