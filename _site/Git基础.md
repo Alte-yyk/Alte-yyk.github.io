@@ -1,8 +1,3 @@
-layout: post
-title:  "Git基础"
-date:   2020-12-05
-author: “Alte-yyk”
-
 #  Git 笔记
 
 ## Git的概念
