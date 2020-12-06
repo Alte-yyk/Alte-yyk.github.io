@@ -1,0 +1,123 @@
+<p>layout: post
+title:  “Git基础”
+date:   2020-12-05
+author: “Alte-yyk”</p>
+
+<h1 id="git-笔记">Git 笔记</h1>
+
+<h2 id="git的概念">Git的概念</h2>
+
+<p>Git是一种版本控制系统，所谓的版本控制系统便是记录各个版本，以便人们可以随时找回以前的原始数据，打个比方，类似与RPG游戏中的存档读档功能。（如果人生也可以存档读档就好了！）</p>
+
+<h2 id="git的特点">Git的特点</h2>
+
+<p>直接记录快照，而非差异比较。（意思是每个版本都信息都做成链接保存？）</p>
+
+<p>近乎所有操作都是本地运行。（不受网络限制）</p>
+
+<p>Git保证完整性。（哈希值）</p>
+
+<p>Git一般只添加数据。（这样不会容易造成不可恢复操作）</p>
+
+<h2 id="git的三种状态">Git的三种状态</h2>
+
+<p><strong>已提交（committed）</strong>、<strong>已修改（modified）</strong> 和 <strong>已暂存（staged）</strong></p>
+
+<ul>
+  <li>已修改表示修改了文件，但还没保存到数据库中。</li>
+  <li>已暂存表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中。</li>
+  <li>已提交表示数据已经安全地保存在本地数据库中。</li>
+</ul>
+
+<h2 id="git的安装ubuntu我用的ubuntu">Git的安装（ubuntu）（我用的ubuntu）</h2>
+
+<p>sudo apt install git-all（其他方法自己去找）</p>
+
+<h2 id="初次运行git前的配置">初次运行Git前的配置</h2>
+
+<p>git config –list –show-origin	//查看所有配置以及它所在文件</p>
+
+<h3 id="用户信息">用户信息</h3>
+
+<p>git config –global user.name “yyk”</p>
+
+<p>git config –global user.email “1812509145@qq.com”</p>
+
+<h3 id="检查配置信息">检查配置信息</h3>
+
+<p>git config –list</p>
+
+<h3 id="获取帮助">获取帮助</h3>
+
+<p>git help <vebr></vebr></p>
+
+<p>git <vebr> --help</vebr></p>
+
+<p>man git-<vebr></vebr></p>
+
+<h2 id="取得项目的git仓库">取得项目的Git仓库</h2>
+
+<h3 id="在工作目录中初始化新仓库">在工作目录中初始化新仓库</h3>
+
+<p>命令：git init</p>
+
+<h3 id="从现有仓库克隆">从现有仓库克隆</h3>
+
+<p>命令：git clone git://github.com/</p>
+
+<h2 id="仓库记录更新">仓库记录更新</h2>
+
+<h3 id="检查当前文件状态">检查当前文件状态</h3>
+
+<p>命令：git status</p>
+
+<h3 id="跟踪新文件">跟踪新文件</h3>
+
+<p>命令：git add <filename> (跟踪后，该文件便是暂存文件了)</filename></p>
+
+<h3 id="文件忽略">文件忽略</h3>
+
+<p>创建一个名为.gitignore的文件</p>
+
+<p>文件 <code class="highlighter-rouge">.gitignore</code> 的格式规范如下：</p>
+
+<ul>
+  <li>所有空行或者以 <code class="highlighter-rouge">#</code> 开头的行都会被 Git 忽略。</li>
+  <li>可以使用标准的 glob 模式匹配，它会递归地应用在整个工作区中。</li>
+  <li>匹配模式可以以（<code class="highlighter-rouge">/</code>）开头防止递归。</li>
+  <li>匹配模式可以以（<code class="highlighter-rouge">/</code>）结尾指定目录。</li>
+  <li>要忽略指定模式以外的文件或目录，可以在模式前加上叹号（<code class="highlighter-rouge">!</code>）取反。</li>
+</ul>
+
+<h3 id="查看修改的部分">查看修改的部分</h3>
+
+<p>git diff</p>
+
+<h3 id="提交更新">提交更新</h3>
+
+<p>命令：git commit</p>
+
+<h3 id="移除与移动">移除与移动</h3>
+
+<p>git rm <文件></文件></p>
+
+<p>git mv README.md README	//把文件名字从README.md改成README</p>
+
+<h2 id="远程仓库的使用">远程仓库的使用</h2>
+
+<p>git remote -v	//查看你已经配置的远程仓库</p>
+
+<p>git remote add origin https://github.com/username/warehose 	//通过http,username为github的用户名，warehose为仓库名，origin这个字符串则代表整个URL</p>
+
+<p>git remote add origin git@github:username/warehose 		//通过SSH来添加，在配置完SSH密钥后，可以免密登陆。</p>
+
+<p>git fetch <remote>	//获取远程仓库数据</remote></p>
+
+<p>git push <remote>	//推送本地数据到远程仓库</remote></p>
+
+<p>git remote show origin 	//查看远程仓库，origin为本地名</p>
+
+<p>git remote rename pb paul	//修改远程仓库名字，这里是把pb改成paul</p>
+
+<p>git remote remove paul		//移除远程仓库</p>
+

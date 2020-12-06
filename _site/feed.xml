@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T21:03:59+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T21:08:45+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -10,4 +10,125 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Git基础</title><link href="http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80.html" rel="alternate" type="text/html" title="Git基础" /><published>2020-12-05T00:00:00+08:00</published><updated>2020-12-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80</id><content type="html" xml:base="http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80.html">&lt;p&gt;layout: post
+title:  “Git基础”
+date:   2020-12-05
+author: “Alte-yyk”&lt;/p&gt;
+
+&lt;h1 id=&quot;git-笔记&quot;&gt;Git 笔记&lt;/h1&gt;
+
+&lt;h2 id=&quot;git的概念&quot;&gt;Git的概念&lt;/h2&gt;
+
+&lt;p&gt;Git是一种版本控制系统，所谓的版本控制系统便是记录各个版本，以便人们可以随时找回以前的原始数据，打个比方，类似与RPG游戏中的存档读档功能。（如果人生也可以存档读档就好了！）&lt;/p&gt;
+
+&lt;h2 id=&quot;git的特点&quot;&gt;Git的特点&lt;/h2&gt;
+
+&lt;p&gt;直接记录快照，而非差异比较。（意思是每个版本都信息都做成链接保存？）&lt;/p&gt;
+
+&lt;p&gt;近乎所有操作都是本地运行。（不受网络限制）&lt;/p&gt;
+
+&lt;p&gt;Git保证完整性。（哈希值）&lt;/p&gt;
+
+&lt;p&gt;Git一般只添加数据。（这样不会容易造成不可恢复操作）&lt;/p&gt;
+
+&lt;h2 id=&quot;git的三种状态&quot;&gt;Git的三种状态&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;已提交（committed）&lt;/strong&gt;、&lt;strong&gt;已修改（modified）&lt;/strong&gt; 和 &lt;strong&gt;已暂存（staged）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;已修改表示修改了文件，但还没保存到数据库中。&lt;/li&gt;
+  &lt;li&gt;已暂存表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中。&lt;/li&gt;
+  &lt;li&gt;已提交表示数据已经安全地保存在本地数据库中。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git的安装ubuntu我用的ubuntu&quot;&gt;Git的安装（ubuntu）（我用的ubuntu）&lt;/h2&gt;
+
+&lt;p&gt;sudo apt install git-all（其他方法自己去找）&lt;/p&gt;
+
+&lt;h2 id=&quot;初次运行git前的配置&quot;&gt;初次运行Git前的配置&lt;/h2&gt;
+
+&lt;p&gt;git config –list –show-origin	//查看所有配置以及它所在文件&lt;/p&gt;
+
+&lt;h3 id=&quot;用户信息&quot;&gt;用户信息&lt;/h3&gt;
+
+&lt;p&gt;git config –global user.name “yyk”&lt;/p&gt;
+
+&lt;p&gt;git config –global user.email “1812509145@qq.com”&lt;/p&gt;
+
+&lt;h3 id=&quot;检查配置信息&quot;&gt;检查配置信息&lt;/h3&gt;
+
+&lt;p&gt;git config –list&lt;/p&gt;
+
+&lt;h3 id=&quot;获取帮助&quot;&gt;获取帮助&lt;/h3&gt;
+
+&lt;p&gt;git help &lt;vebr&gt;&lt;/vebr&gt;&lt;/p&gt;
+
+&lt;p&gt;git &lt;vebr&gt; --help&lt;/vebr&gt;&lt;/p&gt;
+
+&lt;p&gt;man git-&lt;vebr&gt;&lt;/vebr&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;取得项目的git仓库&quot;&gt;取得项目的Git仓库&lt;/h2&gt;
+
+&lt;h3 id=&quot;在工作目录中初始化新仓库&quot;&gt;在工作目录中初始化新仓库&lt;/h3&gt;
+
+&lt;p&gt;命令：git init&lt;/p&gt;
+
+&lt;h3 id=&quot;从现有仓库克隆&quot;&gt;从现有仓库克隆&lt;/h3&gt;
+
+&lt;p&gt;命令：git clone git://github.com/&lt;/p&gt;
+
+&lt;h2 id=&quot;仓库记录更新&quot;&gt;仓库记录更新&lt;/h2&gt;
+
+&lt;h3 id=&quot;检查当前文件状态&quot;&gt;检查当前文件状态&lt;/h3&gt;
+
+&lt;p&gt;命令：git status&lt;/p&gt;
+
+&lt;h3 id=&quot;跟踪新文件&quot;&gt;跟踪新文件&lt;/h3&gt;
+
+&lt;p&gt;命令：git add &lt;filename&gt; (跟踪后，该文件便是暂存文件了)&lt;/filename&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;文件忽略&quot;&gt;文件忽略&lt;/h3&gt;
+
+&lt;p&gt;创建一个名为.gitignore的文件&lt;/p&gt;
+
+&lt;p&gt;文件 &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; 的格式规范如下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;所有空行或者以 &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; 开头的行都会被 Git 忽略。&lt;/li&gt;
+  &lt;li&gt;可以使用标准的 glob 模式匹配，它会递归地应用在整个工作区中。&lt;/li&gt;
+  &lt;li&gt;匹配模式可以以（&lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;）开头防止递归。&lt;/li&gt;
+  &lt;li&gt;匹配模式可以以（&lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;）结尾指定目录。&lt;/li&gt;
+  &lt;li&gt;要忽略指定模式以外的文件或目录，可以在模式前加上叹号（&lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt;）取反。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;查看修改的部分&quot;&gt;查看修改的部分&lt;/h3&gt;
+
+&lt;p&gt;git diff&lt;/p&gt;
+
+&lt;h3 id=&quot;提交更新&quot;&gt;提交更新&lt;/h3&gt;
+
+&lt;p&gt;命令：git commit&lt;/p&gt;
+
+&lt;h3 id=&quot;移除与移动&quot;&gt;移除与移动&lt;/h3&gt;
+
+&lt;p&gt;git rm &lt;文件&gt;&lt;/文件&gt;&lt;/p&gt;
+
+&lt;p&gt;git mv README.md README	//把文件名字从README.md改成README&lt;/p&gt;
+
+&lt;h2 id=&quot;远程仓库的使用&quot;&gt;远程仓库的使用&lt;/h2&gt;
+
+&lt;p&gt;git remote -v	//查看你已经配置的远程仓库&lt;/p&gt;
+
+&lt;p&gt;git remote add origin https://github.com/username/warehose 	//通过http,username为github的用户名，warehose为仓库名，origin这个字符串则代表整个URL&lt;/p&gt;
+
+&lt;p&gt;git remote add origin git@github:username/warehose 		//通过SSH来添加，在配置完SSH密钥后，可以免密登陆。&lt;/p&gt;
+
+&lt;p&gt;git fetch &lt;remote&gt;	//获取远程仓库数据&lt;/remote&gt;&lt;/p&gt;
+
+&lt;p&gt;git push &lt;remote&gt;	//推送本地数据到远程仓库&lt;/remote&gt;&lt;/p&gt;
+
+&lt;p&gt;git remote show origin 	//查看远程仓库，origin为本地名&lt;/p&gt;
+
+&lt;p&gt;git remote rename pb paul	//修改远程仓库名字，这里是把pb改成paul&lt;/p&gt;
+
+&lt;p&gt;git remote remove paul		//移除远程仓库&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Git基础” date: 2020-12-05 author: “Alte-yyk”</summary></entry></feed>
