@@ -16,7 +16,7 @@
 title: Alte-yyk's blog
 email: 1812509145@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  个人根据jekyll的模板而写的基础博客，尚有些许稚嫩...
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

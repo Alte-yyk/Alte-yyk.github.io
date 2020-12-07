@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T21:57:30+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alte-yyk’s blog</title><subtitle>个人根据jekyll的模板而写的基础博客，尚有些许稚嫩...</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T17:12:19+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alte-yyk’s blog</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -10,12 +10,82 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Git基础</title><link href="http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80.html" rel="alternate" type="text/html" title="Git基础" /><published>2020-12-05T00:00:00+08:00</published><updated>2020-12-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80</id><content type="html" xml:base="http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80.html">&lt;p&gt;layout: post
-title:  “Git基础”
-date:   2020-12-05
-author: “Alte-yyk”&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">『学习笔记02』用github和jekyll和git来搭建自己的博客</title><link href="http://localhost:4000/2020/12/06/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002-%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="『学习笔记02』用github和jekyll和git来搭建自己的博客" /><published>2020-12-06T00:00:00+08:00</published><updated>2020-12-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/06/%E3%80%8E%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002%E3%80%8F%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/2020/12/06/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002-%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html">&lt;h1 id=&quot;学习笔记02用github和jekyll和git来搭建自己的博客&quot;&gt;『学习笔记02』用github和jekyll和git来搭建自己的博客&lt;/h1&gt;
 
-&lt;h1 id=&quot;git-笔记&quot;&gt;Git 笔记&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;用这篇博客来记录自己如何从0到1搭建自己的简易博客，本人系统：unbuntu。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;jekyll&quot;&gt;jekyll&lt;/h2&gt;
+
+&lt;p&gt;Jekyll 是一个简单的博客形态的静态站点生产机器。官方定义？我从现识认为，Jekyll就是一个它为你提供网页前端等一系列框架操作，如果你不会操作的话，就这样。我现在只需要写博客即可。&lt;/p&gt;
+
+&lt;h3 id=&quot;安装&quot;&gt;安装&lt;/h3&gt;
+
+  	sudo apt install jekyll			//安装jekyll
+
+  	sudo apt install bundler		//安装bundler
+
+  	jekyll new my-blog				//新建jekyll文件夹
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd my-blog 						//进入文件夹
+
+bundle install
+
+bundle exec jekyll serve 		//编译并启动服务
+
+//打开浏览器 http://localhost:4000来检测是否启动成功
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;详细教程请移步http://jekyllcn.com/docs/installation/&lt;/p&gt;
+  &lt;h3 id=&quot;ruby-gems更换国内源&quot;&gt;Ruby-Gems更换国内源&lt;/h3&gt;
+  &lt;p&gt;若是用的Ruby-Gems来安装jekyll，国内需要换源，否则会很慢，别问我为什么知道的…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+ 	1.查看现有源：gem sources -l
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2.删除现有源：gem sources --remove https://rubygems.org/
+
+3.添加新源：gem sources -a http://gems.ruby-china.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+&lt;p&gt;Git是一种版本控制系统，作用呢，我打个比方🤪，就类似那些单机RPG游戏中存档功能，且每一次都会给你重新选个空白档存档，不会复制以前的存档，这样你就可以随时回到以前的一个状态。（单机游戏玩多了是这样的，哈哈哈…错乱ing）&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;具体学习教程自己看书，这是电子书，冲！——&amp;gt;https://git-scm.com/book/zh/v2/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;安装-1&quot;&gt;安装&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install git 					//ubuntu安装git
+
+git config --global user.name &quot;你的名字&quot; 	//设置名字
+
+git config --global user.email &quot;你的邮箱地址&quot; //设置邮箱
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;github&quot;&gt;github&lt;/h2&gt;
+&lt;p&gt;至于什么github的账号注册，仓库建立什么的，我这里就不说了，网上多的是，这里就讲述一下，在你安装jekyll之后，如何建立一个属于自己域名博客，而不是本地博客。（本地博客就是那个http://localhost:4000）&lt;/p&gt;
+
+&lt;h3 id=&quot;在自己有远程仓库的情况下&quot;&gt;在自己有远程仓库的情况下&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd myblog 						//进入自己创的文件夹
+
+git clone git@github.com:github.name/github.warehosename 				
+//克隆远程仓库，github.name为你注册github的账户名，github.warehosename为你创建的远程仓库名。
+
+jekyll new . --force			//把jekyll安装到当前目录 --force是在当前目录非空是使用。
+
+git add .						// 把当前目录下的所有文件都跟踪
+	
+git commit -m &quot;first commit&quot; 	//设置一段提交的log信息
+
+git remote add origin git@github.com:github.name/github.warehosename 
+								//增加一个远程服务器端
+								
+git push -u origin main 		//推送至远程版本库
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后就可以进入到自己刚刚克隆的远程仓库了，进入settings，滑道网页底部。
+这个沉浸在绿光的，冒着蓝色的域名，就是你的博客！
+htpps://alte-yyk.github.io/ 这是我自己弄的博客，大家可以进去瞅瞅。
+&lt;img src=&quot;https://img-blog.csdnimg.cn/20201207170424470.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNTEzNzc0,size_16,color_FFFFFF,t_70#pic_center&quot; alt=&quot;在这里插入图片描述&quot; /&gt;&lt;/p&gt;</content><author><name>“Alte-yyk”</name></author><summary type="html">『学习笔记02』用github和jekyll和git来搭建自己的博客</summary></entry><entry><title type="html">Git基础</title><link href="http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80.html" rel="alternate" type="text/html" title="Git基础" /><published>2020-12-05T00:00:00+08:00</published><updated>2020-12-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80</id><content type="html" xml:base="http://localhost:4000/2020/12/05/Git%E5%9F%BA%E7%A1%80.html">&lt;h1 id=&quot;git-笔记&quot;&gt;Git 笔记&lt;/h1&gt;
 
 &lt;h2 id=&quot;git的概念&quot;&gt;Git的概念&lt;/h2&gt;
 
@@ -131,7 +201,7 @@ author: “Alte-yyk”&lt;/p&gt;
 
 &lt;p&gt;git remote rename pb paul	//修改远程仓库名字，这里是把pb改成paul&lt;/p&gt;
 
-&lt;p&gt;git remote remove paul		//移除远程仓库&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Git基础” date: 2020-12-05 author: “Alte-yyk”</summary></entry><entry><title type="html">Ubuntu关于SSH的安装与使用</title><link href="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html" rel="alternate" type="text/html" title="Ubuntu关于SSH的安装与使用" /><published>2020-12-05T00:00:00+08:00</published><updated>2020-12-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html">&lt;h1 id=&quot;ubuntu关于ssh的安装与使用&quot;&gt;Ubuntu关于SSH的安装与使用&lt;/h1&gt;
+&lt;p&gt;git remote remove paul		//移除远程仓库&lt;/p&gt;</content><author><name>“Alte-yyk”</name></author><summary type="html">Git 笔记</summary></entry><entry><title type="html">Ubuntu关于SSH的安装与使用</title><link href="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html" rel="alternate" type="text/html" title="Ubuntu关于SSH的安装与使用" /><published>2020-12-05T00:00:00+08:00</published><updated>2020-12-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2020/12/05/ubuntu%E5%85%B3%E4%BA%8ESSh%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.html">&lt;h1 id=&quot;ubuntu关于ssh的安装与使用&quot;&gt;Ubuntu关于SSH的安装与使用&lt;/h1&gt;
 
 &lt;h2 id=&quot;一在ubuntu上启用ssh&quot;&gt;一、在Ubuntu上启用SSH&lt;/h2&gt;
 
@@ -153,4 +223,150 @@ author: “Alte-yyk”&lt;/p&gt;
 
 &lt;p&gt;sudo systemctl disable 	–now ssh	//停止&lt;/p&gt;
 
-&lt;p&gt;sudo systemctl enable      –now ssh	//重新启用&lt;/p&gt;</content><author><name>“Alte-yyk”</name></author><summary type="html">Ubuntu关于SSH的安装与使用</summary></entry></feed>
+&lt;p&gt;sudo systemctl enable      –now ssh	//重新启用&lt;/p&gt;</content><author><name>“Alte-yyk”</name></author><summary type="html">Ubuntu关于SSH的安装与使用</summary></entry><entry><title type="html">『学习笔记』Linux的基本操作</title><link href="http://localhost:4000/2020/11/28/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-Linux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.html" rel="alternate" type="text/html" title="『学习笔记』Linux的基本操作" /><published>2020-11-28T00:00:00+08:00</published><updated>2020-11-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/11/28/%E3%80%8E%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E3%80%8FLinux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C</id><content type="html" xml:base="http://localhost:4000/2020/11/28/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-Linux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.html">&lt;h1 id=&quot;学习笔记linux的基本操作&quot;&gt;『学习笔记』Linux的基本操作&lt;/h1&gt;
+
+&lt;h1 id=&quot;提示&quot;&gt;提示&lt;/h1&gt;
+&lt;p&gt;&amp;lt;&amp;gt;为必填、[]为选填&lt;/p&gt;
+&lt;h2 id=&quot;路径&quot;&gt;路径&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;绝对路径：路径的写法，由根目录 / 写起，例如： /usr/share/doc 这个目录。
+
+相对路径：路径的写法，不是由 / 写起，例如由 /usr/share/doc 要到 /usr/share/man 底下时，可以写成： cd ../man 这就是相对路径的写法。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;通配符&quot;&gt;通配符&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*匹配 0 或多个字符
+? 	匹配任意一个字符
+[list] 	匹配 list 中的任意单一字符
+[^list] 	匹配 除 list 中的任意单一字符以外的字符
+[c1-c2] 	匹配 c1-c2 中的任意单一字符 如：[0-9][a-z]
+{string1,string2,...} 	匹配 string1 或 string2 (或更多)其一字符串
+{c1..c2} 	匹配 c1-c2 中全部字符 如{1..10}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;目录命令常用&quot;&gt;目录命令（常用）&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ls（英文全拼：list files）: 列出目录及文件名
+	格式：ls
+	
+cd（英文全拼：change directory）：切换目录
+	格式：cd [相对路径或绝对路径]
+	
+pwd（英文全拼：print work directory）：显示目前的目录
+ 	格式：pwd
+ 	
+mkdir（英文全拼：make directory）：创建一个新的目录
+	格式：mkdir &amp;lt;目录名称&amp;gt;
+	
+rmdir（英文全拼：remove directory）：删除一个空的目录
+	格式：rmdir &amp;lt;目录名称&amp;gt;
+
+cp（英文全拼：copy file）: 复制文件或目录
+
+rm（英文全拼：remove）: 移除文件或目录
+	格式：rm &amp;lt;文件或目录&amp;gt;		tips：-r 参数递归删除，可删除目录
+
+mv（英文全拼：move file）: 移动文件与目录，或修改文件与目录的名称
+	格式：	mv &amp;lt;源文件&amp;gt; &amp;lt;目的地&amp;gt;
+				mv &amp;lt;原文件名&amp;gt; &amp;lt;新的文件名&amp;gt; ## 用户管理
+添加：useradd &amp;lt;用户名&amp;gt;
+删除：userdel &amp;lt;用户名&amp;gt;
+修改账户名：usermod &amp;lt;用户名&amp;gt;
+密码管理：passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;用户组管理&quot;&gt;用户组管理&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;增加：groupadd &amp;lt;用户组&amp;gt;
+删除：groupdel &amp;lt;用户组&amp;gt;
+修改：groupmod &amp;lt;用户组&amp;gt;
+用户有多个用户组的切换用户组：newgrp &amp;lt;用户组&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;权限管理&quot;&gt;权限管理&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;权限解释图 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201128232952963.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNTEzNzc0,size_16,color_FFFFFF,t_70)
+
+权限修改：chmod xxx &amp;lt;user&amp;gt;
+	tip: chmod为修改权限命令；x为0-7的数字，0 = 000、 7 = 111（二进制转换） &amp;lt;user&amp;gt;为文件名。
+	
+赋予root权限
+ 
+	方法一： 修改 /etc/sudoers 文件，找到下面一行，把前面的注释（#）去掉
+	 
+	## Allows people in group wheel to run all commands
+	%wheel    ALL=(ALL)    ALL
+	然后修改用户，使其属于root组（wheel），命令如下：
+	 
+	#usermod -g root tommy
+	修改完毕，现在可以用tommy帐号登录，然后用命令 su - ，即可获得root权限进行操作。
+	 
+	方法二： 修改 /etc/sudoers 文件，找到下面一行，在root下面添加一行，如下所示：
+	 
+	## Allow root to run any commands anywhere
+	root    ALL=(ALL)     ALL
+	tommy   ALL=(ALL)     ALL
+	修改完毕，现在可以用tommy帐号登录，然后用命令 su - ，即可获得root权限进行操作。
+	 
+	方法三： 修改 /etc/passwd 文件，找到如下行，把用户ID修改为 0 ，如下所示：
+	 
+	tommy:x:500:500:tommy:/home/tommy:/bin/bash
+	修改后如下
+	 
+	tommy:x:0:500:tommy:/home/tommy:/bin/bash
+	保存，用tommy账户登录后，直接获取的就是root帐号的权限。
+	 
+	友情提醒：虽然方法三看上去简单方便，但一般不推荐使用，推荐使用方法二。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;磁盘管理&quot;&gt;磁盘管理&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;df：列出文件系统的整体磁盘使用量
+	格式:df [-ahikHTm] [目录或文件名]
+	    -a ：列出所有的文件系统，包括系统特有的 /proc 等文件系统；
+	    -k ：以 KBytes 的容量显示各文件系统；
+	    -m ：以 MBytes 的容量显示各文件系统；
+	    -h ：以人们较易阅读的 GBytes, MBytes, KBytes 等格式自行显示；
+	    -H ：以 M=1000K 取代 M=1024K 的进位方式；
+	    -T ：显示文件系统类型, 连同该 partition 的 filesystem 名称 (例如 ext3) 也列出；
+	    -i ：不用硬盘容量，而以 inode 的数量来显示
+	
+du：检查磁盘空间使用量
+	格式：du [-ahskm] 文件或目录名称
+	    -a ：列出所有的文件与目录容量，因为默认仅统计目录底下的文件量而已。
+	    -h ：以人们较易读的容量格式 (G/M) 显示；
+	    -s ：列出总量而已，而不列出每个各别的目录占用容量；
+	    -S ：不包括子目录下的总计，与 -s 有点差别。
+	    -k ：以 KBytes 列出容量显示；
+	    -m ：以 MBytes 列出容量显示；
+	
+fdisk：用于磁盘分区
+	格式：fdisk [-l] 装置名称
+		-l ：输出后面接的装置所有的分区内容。若仅有 fdisk -l 时， 则系统将会把整个系统内能够搜寻到的装置的分区均列出来。
+
+mkfs:  磁盘格式化
+	格式：mkfs [-t 文件系统格式] 装置文件名
+		-t ：可以接文件系统格式，例如 ext3, ext2, vfat 等(系统有支持才会生效) 
+	
+fsck: 磁盘检验 
+	格式：fsck [-t 文件系统] [-ACay] 装置名称
+		
+	     -t : 给定档案系统的型式，若在 /etc/fstab 中已有定义或 kernel 本身已支援的则不需加上此参数
+	    -s : 依序一个一个地执行 fsck 的指令来检查
+	    -A : 对/etc/fstab 中所有列出来的 分区（partition）做检查
+	    -C : 显示完整的检查进度
+	    -d : 打印出 e2fsck 的 debug 结果
+	    -p : 同时有 -A 条件时，同时有多个 fsck 的检查一起执行
+	    -R : 同时有 -A 条件时，省略 / 不检查
+	    -V : 详细显示模式
+	    -a : 如果检查有错则自动修复
+	    -r : 如果检查有错则由使用者回答是否修复
+	    -y : 选项指定检测每个文件是自动输入yes，在不确定那些是不正常的时候，可以执行 # fsck -y 全部检查修复。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;硬链接与软链接&quot;&gt;硬链接与软链接&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;硬链接：新建的文件是已du经存在的文件的一个别名，当原文zhi件删除时，新建的文件仍dao然可以使用.（ln）
+
+软链接：也称为符号链接，新建的文件以“路径”的形式来表示另一个文件，和Windows的快捷方式十分相似，新建的软链接可以指向不存在的文件.(ln -s)
+	
+tip:软链接在同目录下创建命令行可用相对路径，如何目的路径与源路径不同，则需绝对路径，否则会造成链接失效。（但还是会创建，笑了。）	
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+&lt;p&gt;菜鸟教程
+百度百科&lt;/p&gt;</content><author><name>“Alte-yyk”</name></author><summary type="html">『学习笔记』Linux的基本操作</summary></entry></feed>
