@@ -1,16 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T17:12:19+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alte-yyk’s blog</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-12-06T20:51:10+08:00</published><updated>2020-12-06T20:51:10+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-12T15:48:40+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alte-yyk’s blog</title><subtitle></subtitle><entry><title type="html">『学习笔记03』重学C语言</title><link href="http://localhost:4000/2020/12/09/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B003-%E9%87%8D%E5%AD%A6C%E8%AF%AD%E8%A8%80.html" rel="alternate" type="text/html" title="『学习笔记03』重学C语言" /><published>2020-12-09T00:00:00+08:00</published><updated>2020-12-09T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/09/%E3%80%8E%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B003%E3%80%8F%E9%87%8D%E5%AD%A6C%E8%AF%AD%E8%A8%80</id><content type="html" xml:base="http://localhost:4000/2020/12/09/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B003-%E9%87%8D%E5%AD%A6C%E8%AF%AD%E8%A8%80.html">&lt;h1 id=&quot;学习笔记03重学c语言&quot;&gt;『学习笔记03』重学C语言&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;引言&quot;&gt;引言&lt;/h2&gt;
+&lt;p&gt;以下博文均记于该视频，视频链接——&amp;gt;https://m.imooc.com/video/627,感兴趣的小伙伴建议自己去看一遍，总共也就俩小时，冲！&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h2 id=&quot;c语言&quot;&gt;C语言&lt;/h2&gt;
+&lt;p&gt;C语言就是人类为了和计算机交流而发明的一种语言，现在大都所取的标准是美国国家标准局所制定的ANSIC。（没办法，当时这方面，人家是老大哥。）&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;C语言的特点：简单快速高性能，兼容性好功能强大又易学。（好像说的都对，相对易学，哈哈哈。）&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">『学习笔记02』用github和jekyll和git来搭建自己的博客</title><link href="http://localhost:4000/2020/12/06/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002-%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="『学习笔记02』用github和jekyll和git来搭建自己的博客" /><published>2020-12-06T00:00:00+08:00</published><updated>2020-12-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/06/%E3%80%8E%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002%E3%80%8F%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/2020/12/06/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002-%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html">&lt;h1 id=&quot;学习笔记02用github和jekyll和git来搭建自己的博客&quot;&gt;『学习笔记02』用github和jekyll和git来搭建自己的博客&lt;/h1&gt;
+&lt;p&gt;C语言适合做啥：我很喜欢视频中老师所说的，适合做小工具，我们可以把每一个功能，例如linux下的cd，该命令的意思是切换路径。该功能就是用C语言写出来的一个功能类，相信看到这里，你已经懂了🤪。
+至于其他适合硬件编程，有高性能需求的应用程序什么的，自己去视频看，我也不太懂，尴尬ing&lt;/p&gt;
+
+&lt;h2 id=&quot;开发环境与配置&quot;&gt;开发环境与配置&lt;/h2&gt;
+&lt;p&gt;公欲善其事，必先利其器。而对于学习语言来说，开发环境是必须的！&lt;/p&gt;
+&lt;h3 id=&quot;环境&quot;&gt;环境&lt;/h3&gt;
+&lt;p&gt;安装一个linux操作系统，建议安装ubuntu。两种办法：一是安装一个虚拟机，在虚拟机中安装一个linux系统；一是安装双系统。具体操作，CSDN中有很多文章等着你看呢！冲，我这里就告诉这么些了，嘿嘿！&lt;/p&gt;
+
+&lt;h3 id=&quot;编辑器&quot;&gt;编辑器&lt;/h3&gt;
+&lt;p&gt;神的编辑器：vim
+sudo apt-get update		//更新
+sudo apt-get install vim	//安装&lt;/p&gt;
+
+&lt;h3 id=&quot;基本命令&quot;&gt;基本命令&lt;/h3&gt;
+&lt;p&gt;这是我第一个学习笔记，有一些linux的基本命令，可以看一下。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;https://editor.csdn.net/md/?articleId=110296532&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;多文件操作&quot;&gt;多文件操作&lt;/h2&gt;
+&lt;p&gt;个人理解，所谓的多文件操作就是你编写一个代码，可能会需要用到很多类函数，这时候呢，我们就可以把这些类函数单独写出来，每个类函数用一个文件来编写，这样就会有多个文件。&lt;/p&gt;
+&lt;h3 id=&quot;多个源文件分而治之&quot;&gt;多个源文件分而治之&lt;/h3&gt;
+&lt;p&gt;一个代码的运行往往需要很多头文件，其实&lt;stdio.h&gt;就是一个头文件，在Linux C中，我们可以自己定义头文件，例如你需要引用求最大值这个功能，就可以定义一个名为 max.c 的文件，其内容就是求最大值，里面不需要main函数。这里列个图。 
+![在这里插入图片](https://img-blog.csdnimg.cn/20201211121349522.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNTEzNzc0,size_16,color_FFFFFF,t_70#pic_center)&lt;/stdio.h&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;头文件与函数定义分离&quot;&gt;头文件与函数定义分离&lt;/h3&gt;
+&lt;p&gt;根据分治章，我们知道了我们可以自行定义头文件，但在这里，我们要不要直接引用max.c这个头文件，头文件也就是在main函数代码编译之前，先翻译的代码，如果你自行定义的头文件巨多，那你一个代码的编译过程也就会超长，这样效率问题就出现了。
+为了解决这个问题，我们可以提前翻译我们的头文件，然后在编译执行代码时，只需要把有main函数的文件与翻译好的头文件连接即可。
+上图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/20201211122841236.png#pic_center&quot; alt=&quot;在这里插入图片描述&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcc -c max.c -o max.o	//把max.c 翻译成名为 max.o 的文件，max.o文件是给计算机看的
+gcc max.o min.o hello.c	//编译hello.c时连接翻译好的max.c的文件和min.c文件
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;通常我们把：不会改动的函数、公共框架、公共类，翻译生成静态库。（公共框架，静态库啥的，想知道的百度，反正我现在是懵的🤪）&lt;/p&gt;
+
+&lt;p&gt;max.h和max.c和max.o三者的定义与区别&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;max.h是一个用来注释性的文件，它的存在是为了告诉其他编程者我们这个main函数中调用了max这个函数。
+max.c是我们编写求最大值这个功能的源代码，给人看的。
+max.o是编译完成后的max.c，用来给计算机看的。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;注意：编写max.h这类自定义头文件时，记得每句结尾加上结束符 “；”。（就因为这玩意，我用了五分钟找bug，还去百度，把我给气笑了…）&lt;/p&gt;
+
+&lt;h2 id=&quot;makefile的编写与使用&quot;&gt;makeFile的编写与使用&lt;/h2&gt;
+&lt;h3 id=&quot;makefile这是文件名似乎一定要这样先这样&quot;&gt;Makefile(这是文件名，似乎一定要这样，先这样。)&lt;/h3&gt;
+&lt;p&gt;Makefile一个文件，作用就是把之前编译的代码写在一起，然后一并执行。上图解释
+&lt;img src=&quot;https://img-blog.csdnimg.cn/20201211164705268.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNTEzNzc0,size_16,color_FFFFFF,t_70#pic_center&quot; alt=&quot;在这里插入图片描述&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#在这个文件中是注释符号，就#后面的内容执行时会被忽略。
+图片蓝色的hello.out		//项目执行文件
+图片中白色的max.o		//目标文件
+图片中紫色的语句			//编译语句&lt;/p&gt;
+
+&lt;p&gt;在终端输入make命令，便会自动执行Makefile文件。
+执行顺序：从上往下，递归方式。&lt;/p&gt;
+
+&lt;p&gt;举例：&lt;/p&gt;
+
+&lt;p&gt;现在你没有max.o min.o hello.out文件，先是编译hello.out,在编译hello.out时，发现没有max.o，它便自动寻找编译max.o的语句，min.o也是如此，直到有了max.o和min.o文件，在编译hello.out文件。&lt;/p&gt;
+
+&lt;p&gt;如果你一开始就已经有了max.o和min.o，则不会运行下面两条语句了。&lt;/p&gt;
+
+&lt;h3 id=&quot;make&quot;&gt;make&lt;/h3&gt;
+&lt;p&gt;make也是类似cd一类的小工具，它可以把一个大的开发项目分成很多个模块（分治？），可以很清晰快捷的整理源文件。&lt;/p&gt;
+
+&lt;h3 id=&quot;安装&quot;&gt;安装&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make -v						//用来查看你当前ubuntu系统中的make版本
+sudo apt-get install make	//安装make
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;main函数详解这节强推看教程很nice&quot;&gt;main函数详解(这节强推看教程，很Nice！)&lt;/h2&gt;
+&lt;p&gt;这里先上一段基本的代码&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+int main(int argv,char* argc[])
+{
+	printf(&quot;argv is %d .\n&quot;,argv);
+	int i;
+	for(i=0;i&amp;lt;argv;i++)
+	{
+		printf(&quot;argc[%d] is %s .\n&quot;,i,argc[i]);
+	}
+	return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;C语言是一门强大的语言，它是可以与计算机操作系统进行交互的。在一个main函数中，交互的手段就是return 和 argv 还有 argc[]。下面就简单描述一下它们的作用。&lt;/p&gt;
+
+&lt;h3 id=&quot;return&quot;&gt;return&lt;/h3&gt;
+&lt;p&gt;return 0；返回一个0，即当你运行完这个代码后，它会返回一个值，而系统根据这个运算值，来判断该语句是否成功运行。
+&lt;img src=&quot;https://img-blog.csdnimg.cn/20201212111353295.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNTEzNzc0,size_16,color_FFFFFF,t_70#pic_center&quot; alt=&quot;在这里插入图片描述&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;amp;&amp;amp;			//linux命令语句中的连接符，左边的语句运行成功后，才会运行右边的语句。
+echo $? 	//把返回码(错误码)输出到终端上	
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;int-argv-与-char-argc&quot;&gt;int argv 与 char* argc[]&lt;/h3&gt;
+&lt;p&gt;argv 是一个整形值，值是你运行的那条命令中语句的个数。
+argc[] 字符数组，每个数组保存的是你的命令。
+这里结合上面那个图，就明了了。&lt;/p&gt;
+
+&lt;h2 id=&quot;输入输出流与错误流&quot;&gt;输入输出流与错误流&lt;/h2&gt;
+&lt;p&gt;linux把所有的外设都当作文件来处理，键盘、显示器、鼠标、打印机等等设备，对linux来说，都是文件。&lt;/p&gt;
+&lt;h3 id=&quot;标准的输入流输出流以及错误流&quot;&gt;标准的输入流输出流以及错误流&lt;/h3&gt;
+&lt;p&gt;stdin:	标准的输入流，向外设读取数据，默认为键盘。
+stdout:	标准的输出流，向外设输出数据，默认为显示器。
+stderr:	错误流，要有返回值，且返回值不能等于0。（我认为是用来和操作系统交互的，哈哈哈，其实错误流也一般默认输出到显示器，就标准的输出流输出正确情况下的咯，错误流那不久输出错误情况下的咯。）&lt;/p&gt;
+
+&lt;h3 id=&quot;输入流输出流以及错误流的重定向&quot;&gt;输入流输出流以及错误流的重定向&lt;/h3&gt;
+&lt;p&gt;重定向：顾名思义，重新制定方向。举个例子，标准的输入流默认的为键盘，我们可以把输入的改成用txt文件来输入，这就是重定向。&lt;/p&gt;
+
+&lt;p&gt;重定向输入流：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a.out &amp;lt; b.txt	//	把标准输入流改为txt文件内容来输入
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;重定向输出流：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a.out &amp;gt;&amp;gt; a.txt	// 把标准输出流改为输出到txt文件中，不会覆盖里面的内容。（适用日志，内容放在末尾。） 
+a.out &amp;gt;  a.txt	//把标准输出流改为输出到txt文件中，会覆盖里面内容。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;重定向错误流&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a.out &amp;gt;&amp;gt; f.txt	/大致同上。
+a.out &amp;gt;  f.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;重定向的作用：就可以把你输入输出错误分别开来，还能顺便记录下来。（写日记？正经人谁写日记啊？555，程序员不是正经人了…）&lt;/p&gt;
+
+&lt;h2 id=&quot;管道&quot;&gt;管道&lt;/h2&gt;
+&lt;p&gt;管道就一个把独立的小工具连接起来的桥梁，非常流弊的一个玩意。举个🌰。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls /etc/&lt;/td&gt;
+      &lt;td&gt;grep ab&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;这个命令我们分解以下，ls /etc/ 这个命令是把etc文件下的所有内容列出来，&lt;/td&gt;
+      &lt;td&gt;这个就是管道，（就很形象有木有？）grep是一个搜索命令，grep ab 就是搜索所有文件名中包含ab这个字符串的文件。所以整行命令的意思为，列出etc目录下所有包含ab字符串的文件，&lt;/td&gt;
+      &lt;td&gt;起连接作用。&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;打造自己的小工具&quot;&gt;打造自己的小工具&lt;/h2&gt;
+&lt;p&gt;这个就是你自己写俩简单独立的函数功能，例如一个输入求和，一个输入求平均值，然后利用管道连接起来，你就可以又求和有算出平均值，类似如此作用。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+&lt;p&gt;这个博客我至今为止写的最多一个博客了吧，记录我看这个两小时教程的所有体会与理解，重新认识一次C语言，也重新学到了一些新的东西，nice！！！&lt;/p&gt;
+
+&lt;h2 id=&quot;总体时间2020-12-09--2020-12-12&quot;&gt;总体时间：2020-12-09 ——&amp;gt; 2020-12-12&lt;/h2&gt;</content><author><name>Alte-yyk</name></author><summary type="html">『学习笔记03』重学C语言</summary></entry><entry><title type="html">『学习笔记02』用github和jekyll和git来搭建自己的博客</title><link href="http://localhost:4000/2020/12/06/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002-%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html" rel="alternate" type="text/html" title="『学习笔记02』用github和jekyll和git来搭建自己的博客" /><published>2020-12-06T00:00:00+08:00</published><updated>2020-12-06T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/06/%E3%80%8E%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002%E3%80%8F%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2</id><content type="html" xml:base="http://localhost:4000/2020/12/06/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B002-%E7%94%A8github%E5%92%8Cjekyll%E5%92%8Cgit%E6%9D%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html">&lt;h1 id=&quot;学习笔记02用github和jekyll和git来搭建自己的博客&quot;&gt;『学习笔记02』用github和jekyll和git来搭建自己的博客&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;用这篇博客来记录自己如何从0到1搭建自己的简易博客，本人系统：unbuntu。&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;jekyll&quot;&gt;jekyll&lt;/h2&gt;
